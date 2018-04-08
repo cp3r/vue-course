@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vue Course: Lesson one</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css?v=1.0" />
+</head>
+
+<body>
+  <div id="app">
+    <h1>{{title}}</h1>
+    <h3>Количество пользователей: {{users.length}}</h3>
+
+    <button @click="toggleUserList">{{userListVisible ? "Скрыть список пользователей" : "Показать список пользователей"}}</button>
+
+    <ul v-if="userListVisible" class="user-list">
+      <li v-for="user in users" class="user">
+        <div class="user__photo">
+          <img class="user__avatar" v-if="user.avatar" :src="user.avatar" alt="Аватар" />
+          <div v-else class="user__avatar user__avatar--empty">Аватар отсутствует</div>
+        </div>
+        <div class="user__description">
+          <div class="user__field">
+            <div class="user__field-title">Фамилия:</div>
+            <div>{{user.surname}}</div>
+          </div>
+          <div class="user__field">
+            <div class="user__field-title">Имя:</div>
+            <div>{{user.name}}</div>
+          </div>
+          <div class="user__field">
+            <div class="user__field-title">Отчество:</div>
+            <div>{{user.middlename}}</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
