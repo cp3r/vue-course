@@ -1,0 +1,16 @@
+html,
+body,
+button,
+h1.ui.header,
+h3.ui.header {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding-top: 20px;
+}
+h3.ui.header {
+  color: #666;
+}
+.labeled {
+  padding: 4px;
+}
