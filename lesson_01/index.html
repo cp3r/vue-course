@@ -15,10 +15,10 @@
     <h1>{{title}}</h1>
     <h3>Количество пользователей: {{users.length}}</h3>
 
-    <button @click="toggleUserList">{{userListVisible ? "Скрыть список пользователей" : "Показать список пользователей"}}</button>
+    <button type="button" @click="toggleUserList">{{userListVisible ? "Скрыть список пользователей" : "Показать список пользователей"}}</button>
 
     <ul v-if="userListVisible" class="user-list">
-      <li v-for="user in users" class="user">
+      <li v-for="user in users" class="user" :key="user.name">
         <div class="user__photo">
           <img class="user__avatar" v-if="user.avatar" :src="user.avatar" alt="Аватар" />
           <div v-else class="user__avatar user__avatar--empty">Аватар отсутствует</div>
