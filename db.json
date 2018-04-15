@@ -1,0 +1,191 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "isActive": false,
+      "balance": "$2,808.67",
+      "picture": "http://placehold.it/128x128",
+      "age": 26,
+      "accessLevel": "user",
+      "firstName": "Fannie",
+      "lastName": "Henry",
+      "company": "CENTICE",
+      "email": "fannie.henry@centice.tv",
+      "phone": "+7 (905) 535-2516",
+      "address": "170 Green Street, Wiscon, Ohio, 7608",
+      "about":
+        "Reprehenderit sunt voluptate dolore irure ex adipisicing. Dolore sunt culpa anim non dolor dolor proident. Nostrud ut commodo anim cillum dolor anim exercitation exercitation. Sint duis aliqua quis ut excepteur officia mollit. Ex in consequat pariatur labore reprehenderit ex est dolore. Reprehenderit aliqua excepteur amet amet nostrud laborum nulla tempor sit et ex id anim. Ipsum do id magna ad reprehenderit nulla ad quis.",
+      "registered": "13.02.2016"
+    },
+    {
+      "id": 1,
+      "isActive": true,
+      "balance": "$2,964.16",
+      "picture": "http://placehold.it/128x128",
+      "age": 36,
+      "accessLevel": "user",
+      "firstName": "Jeannine",
+      "lastName": "Mccarty",
+      "company": "KEEG",
+      "email": "jeannine.mccarty@keeg.name",
+      "phone": "+7 (976) 490-2131",
+      "address": "944 Seeley Street, Bodega, Nevada, 4046",
+      "about":
+        "Pariatur mollit voluptate ea cillum culpa ipsum qui voluptate. Minim cillum ea consequat fugiat ea laborum incididunt magna in consequat et. Proident laboris nisi proident ad exercitation et minim nulla et fugiat est. Proident ullamco commodo aliquip ipsum ea labore nulla deserunt excepteur laboris deserunt est.",
+      "registered": "04.12.2014"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "balance": "$3,654.87",
+      "picture": "http://placehold.it/128x128",
+      "age": 24,
+      "accessLevel": "guest",
+      "firstName": "Nettie",
+      "lastName": "Tyler",
+      "company": "RECRITUBE",
+      "email": "nettie.tyler@recritube.com",
+      "phone": "+7 (854) 427-2681",
+      "address": "774 Seaview Court, Hannasville, Tennessee, 2375",
+      "about":
+        "Excepteur tempor duis deserunt reprehenderit. Mollit laborum sint dolor ullamco eu. Laborum exercitation ut dolore exercitation labore mollit quis. Adipisicing dolor mollit magna sint cupidatat commodo consequat.",
+      "registered": "14.11.2016"
+    },
+    {
+      "id": 3,
+      "isActive": false,
+      "balance": "$1,381.22",
+      "picture": "http://placehold.it/128x128",
+      "age": 32,
+      "accessLevel": "user",
+      "firstName": "Rice",
+      "lastName": "Fischer",
+      "company": "CONJURICA",
+      "email": "rice.fischer@conjurica.org",
+      "phone": "+7 (951) 538-2275",
+      "address": "588 Manor Court, Beyerville, Wyoming, 9384",
+      "about":
+        "Ea est Lorem pariatur nisi do ex culpa. Voluptate pariatur Lorem proident pariatur. Velit enim mollit labore ut. Dolor sint reprehenderit enim do sit.",
+      "registered": "03.10.2017"
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "balance": "$3,683.22",
+      "picture": "http://placehold.it/128x128",
+      "age": 40,
+      "accessLevel": "guest",
+      "firstName": "Inez",
+      "lastName": "Lindsey",
+      "company": "EXOPLODE",
+      "email": "inez.lindsey@exoplode.net",
+      "phone": "+7 (803) 471-3500",
+      "address": "390 Campus Road, Murillo, California, 3776",
+      "about":
+        "Commodo occaecat Lorem eiusmod exercitation mollit labore. Eiusmod aliqua excepteur voluptate velit commodo Lorem dolor do enim. Quis sint eu aliquip sint ea nulla occaecat sint nisi. Sint fugiat labore esse sunt tempor eiusmod.",
+      "registered": "04.01.2014"
+    },
+    {
+      "id": 5,
+      "isActive": false,
+      "balance": "$1,869.43",
+      "picture": "http://placehold.it/128x128",
+      "age": 32,
+      "accessLevel": "guest",
+      "firstName": "Katina",
+      "lastName": "Pope",
+      "company": "BLURRYBUS",
+      "email": "katina.pope@blurrybus.co.uk",
+      "phone": "+7 (835) 494-3698",
+      "address": "240 McKibben Street, Rowe, Pennsylvania, 735",
+      "about":
+        "Et esse excepteur nisi aliquip ullamco ut dolor exercitation anim aute. Incididunt anim dolore commodo tempor do reprehenderit sit labore ullamco. Dolor qui velit proident minim aliqua eu pariatur. Laboris nisi amet commodo sunt pariatur mollit. Nostrud pariatur laborum pariatur ad ullamco tempor et.",
+      "registered": "26.01.2018"
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "balance": "$2,483.14",
+      "picture": "http://placehold.it/128x128",
+      "age": 39,
+      "accessLevel": "guest",
+      "firstName": "Clay",
+      "lastName": "Keller",
+      "company": "VOIPA",
+      "email": "clay.keller@voipa.me",
+      "phone": "+7 (966) 464-3374",
+      "address": "339 Bills Place, Cotopaxi, Hawaii, 5556",
+      "about":
+        "Mollit excepteur proident magna consectetur. Amet minim ut laborum in quis. Ad tempor exercitation irure culpa fugiat ea aliqua. Aliqua laboris id nostrud enim culpa. Sint proident ad ex sit sit ut et consequat Lorem. In pariatur non proident eiusmod officia pariatur deserunt fugiat quis adipisicing minim aute. Ad ad excepteur deserunt ad commodo irure.",
+      "registered": "01.07.2015"
+    },
+    {
+      "id": 7,
+      "isActive": false,
+      "balance": "$2,119.02",
+      "picture": "http://placehold.it/128x128",
+      "age": 35,
+      "accessLevel": "admin",
+      "firstName": "Garrison",
+      "lastName": "Crawford",
+      "company": "MOBILDATA",
+      "email": "garrison.crawford@mobildata.us",
+      "phone": "+7 (849) 409-2842",
+      "address": "756 Cherry Street, Drytown, Palau, 4918",
+      "about":
+        "Deserunt aliqua laboris esse laborum consectetur commodo sit velit cupidatat tempor ut ut. Enim id nisi mollit ullamco sunt nostrud eiusmod dolor laborum ea sunt incididunt do laborum. Culpa qui non deserunt anim veniam cillum. Commodo ullamco cupidatat labore non nisi officia labore et minim. Eu ad cillum tempor amet mollit pariatur. Nisi ut quis laborum dolore. Ullamco non ex mollit dolore occaecat magna nostrud voluptate reprehenderit laboris proident ad tempor.",
+      "registered": "08.04.2018"
+    },
+    {
+      "id": 8,
+      "isActive": true,
+      "balance": "$2,851.37",
+      "picture": "http://placehold.it/128x128",
+      "age": 27,
+      "accessLevel": "guest",
+      "firstName": "Warren",
+      "lastName": "House",
+      "company": "SULTRAXIN",
+      "email": "warren.house@sultraxin.biz",
+      "phone": "+7 (966) 481-2322",
+      "address": "879 Dahill Road, Caledonia, Utah, 1241",
+      "about":
+        "Adipisicing aliquip exercitation duis laboris incididunt irure commodo. Veniam pariatur sunt reprehenderit quis sint consectetur sint ullamco amet magna commodo. Aliqua reprehenderit magna esse ex eiusmod adipisicing culpa tempor proident. Minim veniam duis in eu reprehenderit eiusmod esse Lorem officia et ut quis mollit est. Ex non ea voluptate commodo elit ea in veniam qui incididunt deserunt nisi. Consectetur dolor et elit voluptate nulla reprehenderit magna ad ad. Velit aliqua quis eu culpa reprehenderit consequat sit minim sit amet fugiat.",
+      "registered": "03.05.2016"
+    },
+    {
+      "id": 9,
+      "isActive": true,
+      "balance": "$1,123.98",
+      "picture": "http://placehold.it/128x128",
+      "age": 20,
+      "accessLevel": "admin",
+      "firstName": "Augusta",
+      "lastName": "Ortega",
+      "company": "HOUSEDOWN",
+      "email": "augusta.ortega@housedown.io",
+      "phone": "+7 (935) 492-2214",
+      "address": "729 Rost Place, Faxon, Montana, 1390",
+      "about":
+        "Amet duis velit amet enim ullamco incididunt excepteur ullamco aliquip sit. Sit nisi laboris labore sint cillum mollit enim enim duis cillum. Sunt elit do mollit adipisicing commodo ad nostrud officia ex tempor magna quis est. Ex eu exercitation proident nisi.",
+      "registered": "19.06.2015"
+    },
+    {
+      "id": 10,
+      "isActive": false,
+      "balance": "$1,743.59",
+      "picture": "http://placehold.it/128x128",
+      "age": 32,
+      "accessLevel": "user",
+      "firstName": "Ernestine",
+      "lastName": "Gordon",
+      "company": "ZEROLOGY",
+      "email": "ernestine.gordon@zerology.biz",
+      "phone": "+7 (973) 415-2016",
+      "address": "771 Box Street, Lupton, North Dakota, 9512",
+      "about":
+        "Ipsum aute ad nulla quis nulla tempor excepteur ullamco anim duis tempor exercitation laborum. Commodo velit occaecat enim sit commodo. Duis ad eiusmod ea non fugiat.",
+      "registered": "12.02.2016"
+    }
+  ]
+}
