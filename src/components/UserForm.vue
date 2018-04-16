@@ -32,18 +32,16 @@
 </template>
 <script>
 export default {
-  name: "UserEdit",
+  name: "UserForm",
   props: {
     user: {
       type: Object,
       required: true
     }
   },
-  data() {
-    return {
-      tempUser: null
-    };
-  },
+  data: () => ({
+    tempUser: null
+  }),
   watch: {
     tempUser: {
       deep: true,

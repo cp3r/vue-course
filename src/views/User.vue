@@ -1,33 +1,42 @@
 <template>  
-  <div class="five wide column">
-    <div class="ui segment">
-      <div v-if="!user">Загрузка...</div>
-      <user-edit v-else :user="user"></user-edit>
-    </div>
+  <div v-if="!user && !errors.length" class="ui active inverted dimmer">
+    <div class="ui text loader">Загрузка...</div>        
+  </div>     
+  <div v-else  class="five wide column">        
+      <div v-if="errors.length">
+        <div class="ui error message">Ошибка при загрузке данных</div>
+      </div>   
+      <div v-else  class="ui segment">
+        <user-form :user="user"></user-form>      
+      </div>
   </div>
 </template>
 <script>
 import axios from "axios";
-import UserEdit from "@/components/UserEdit.vue";
+import UserForm from "@/components/UserForm.vue";
 
 export default {
   name: "User",
   components: {
-    UserEdit
+    UserForm
   },
-  data() {
-    return {
-      user: null
-    };
-  },
+  data: () => ({
+    errors: [],
+    user: null
+  }),
   mounted() {
     this.getUser();
   },
   methods: {
     getUser() {
-      axios.get("http://localhost:3000/users/0").then(response => {
-        this.user = response.data;
-      });
+      axios
+        .get("http://localhost:3000/users/" + this.$route.params.id)
+        .then(response => {
+          this.user = response.data;
+        })
+        .catch(err => {
+          this.errors.push(err);
+        });
     }
   }
 };

@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav" class="ui secondary menu">
       <router-link class="item" to="/">Список пользователей</router-link> 
-      <router-link class="item" to="/user">Пользователь</router-link>
+      <router-link class="item" to="/user">Добавить</router-link>
     </div>
     <div class="ui grid">           
         <router-view />      

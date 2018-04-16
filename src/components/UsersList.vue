@@ -10,6 +10,8 @@
         <th>E-mail</th>
         <th>Телефон</th>
         <th>Баланс</th>
+        <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -22,6 +24,16 @@
         <td>{{user.email}}</td>
         <td>{{user.phone}}</td>
         <td>{{user.balance}}</td>        
+        <td>
+          <router-link :to='"/user/" + user.id' class="ui icon primary button">          
+            <i class="pencil icon"></i>          
+          </router-link>
+        </td>
+        <td>
+          <button type="button" class="ui icon negative button">
+            <i class="times icon"></i>
+          </button>
+        </td>
       </tr>
     </tbody>
   </table>
